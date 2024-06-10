@@ -158,3 +158,130 @@ header .trip_bx .search_bx input[type="button"]{
 header .trip_bx .search_bx input[type="button"]:hover{
     background: grey;
 }
+.tours{
+    padding-left: 50%;
+    margin: 0;
+    transform: translateY(-50px);
+
+}
+.content_tour_1 {
+    margin-bottom: -312px;
+    position: relative;
+    width: 48%;
+    height: 45%;
+}
+
+.content_tour_1::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('https://wallpaperaccess.com/full/2867428.jpg') no-repeat center center/cover;
+    border-radius: 10px;
+    z-index: -1;
+}
+.content_tour_1 h3,     
+.content_tour_1 p {
+    position: relative;
+    z-index: 1;
+    color: white;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    border-radius: 10px;
+}
+.content_tour_2 {
+    position: relative;
+    transform: translateX(610px);
+    width: 48%;
+    height: 45%;
+}
+
+.content_tour_2::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('https://content.skyscnr.com/m/6165bb9c4667a9cb/original/GettyImages-477556370.jpg?resize=1800px:1800px&quality=100') no-repeat center center/cover;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.content_tour_2 h3,     
+.content_tour_2 p {
+    
+    position: relative;
+    z-index: 1;
+    color: white;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    border-radius: 10px;
+}
+.content_tour_3 {
+    margin-bottom: -312px;
+    position: relative;
+    width: 48%;
+    height: 45%;
+}
+
+.content_tour_3::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('https://cdn.getyourguide.com/img/tour/5b4641876eebf.jpeg/98.jpg') no-repeat center center/cover;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.content_tour_3 h3,     
+.content_tour_3 p {
+    
+    position: relative;
+    z-index: 1;
+    color: white;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    border-radius: 10px;
+}
+.content_tour_4 {
+    position: relative;
+    transform: translateX(610px);
+    width: 48%;
+    height: 45%;
+}
+
+.content_tour_4::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('http://www.pixelstalk.net/wp-content/uploads/2016/10/Paris-Wallpapers-HD.jpg') no-repeat center center/cover;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.content_tour_4 h3,     
+.content_tour_4 p {
+    position: relative;
+    z-index: 1;
+    color: white;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    border-radius: 10px;
+}
+.button_explorar{
+    margin-left: 460px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid #000;
+    background: #000;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    transition: .3s linear;
+}
+.button_explorar:hover{
+    background: gray;
+    border: 2px solid gray
+}
